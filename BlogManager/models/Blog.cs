@@ -49,7 +49,6 @@ public class Blog
             catch (System.Exception ex)
             {
                 Console.WriteLine($"An error occurred while adding a blog site: {ex.Message}");
-                throw;
             }
         }
     }

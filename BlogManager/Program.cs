@@ -81,11 +81,11 @@ class Program
             string userInput = Console.ReadLine() ?? "";
             userInput = userInput.ToLower();
 
-            if (userInput == "y")
+            if (userInput.Equals("y"))
             {
                 isValidInput = true;
             }
-            else if (userInput == "n")
+            else if (userInput.Equals("n"))
             {
                 Console.WriteLine("Thank you for using Blog Manager.");
                 Environment.Exit(0);
